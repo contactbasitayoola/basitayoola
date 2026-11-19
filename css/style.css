@@ -1,0 +1,64 @@
+/* 
+    BASIT AYOOLA: GLOBAL BRAND SAFETY CSS
+    This file handles only global branding to prevent "scattering" layouts.
+*/
+
+:root {
+    --obsidian: #050507;
+    --gold: #d4af37;
+    --white: #ffffff;
+}
+
+/* 1. Reset high-level behavior without breaking grids */
+html {
+    scroll-behavior: smooth;
+    background-color: var(--obsidian);
+}
+
+body {
+    background-color: var(--obsidian);
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Luxury Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--obsidian);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #222;
+    border: 2px solid var(--obsidian);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--gold);
+}
+
+/* 3. Text Selection Color */
+::selection {
+    background: var(--gold);
+    color: var(--obsidian);
+}
+
+/* 4. Ensure the Header Avatar stays a circle */
+.avatar-badge {
+    border-radius: 50% !important;
+    object-fit: cover !important;
+}
+
+/* 5. Reveal Animation Base (Matches the JS) */
+.reveal-hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.8s ease;
+}
+
+.reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+}

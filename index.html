@@ -1,0 +1,2055 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Basit Ayoola (Bestseller Whisperer) - Master Book Marketing Strategist, Amazon KDP Specialist, BookTok Campaign Architect, and Publishing Consultant for ambitious authors worldwide.">
+    <title>Basit Ayoola | Bestseller Whisperer | Elite Book Marketing Strategist</title>
+    
+    <!-- Favicon: Browser Tab Icon -->
+    <link rel="icon" type="image/jpeg" href="assets/images/basitic.jpg">
+
+    <!-- External Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- External Global Stylesheet Reference -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Comprehensive Internal Stylesheet (Self-Contained High-Performance Engine) -->
+    <style>
+        :root {
+            --bg-obsidian: #050507;
+            --bg-surface: #0c0c12;
+            --bg-elevated: #13131d;
+            --bg-glass: rgba(12, 12, 18, 0.82);
+            --gold-primary: #d4af37;
+            --gold-light: #f3e5ab;
+            --gold-dark: #997d20;
+            --gold-gradient: linear-gradient(135deg, #f3e5ab 0%, #d4af37 50%, #997d20 100%);
+            --gold-glow: rgba(212, 175, 55, 0.25);
+            --text-pure: #ffffff;
+            --text-ivory: #f8f8fc;
+            --text-muted: #a0a0b8;
+            --text-dim: #6b6b84;
+            --border-subtle: rgba(212, 175, 55, 0.15);
+            --border-highlight: rgba(212, 175, 55, 0.45);
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+            --transition-smooth: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            --shadow-card: 0 16px 40px -10px rgba(0, 0, 0, 0.75);
+            --shadow-gold: 0 0 35px rgba(212, 175, 55, 0.2);
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+            background-color: var(--bg-obsidian);
+            color: var(--text-ivory);
+            font-family: var(--font-body);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        body {
+            overflow-x: hidden;
+            background: radial-gradient(circle at 50% 0%, rgba(20, 20, 35, 0.8) 0%, var(--bg-obsidian) 70%);
+            min-height: 100vh;
+        }
+
+        ::selection {
+            background-color: var(--gold-primary);
+            color: var(--bg-obsidian);
+        }
+
+        /* Typography Presets */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-display);
+            font-weight: 700;
+            line-height: 1.25;
+            letter-spacing: -0.01em;
+            color: var(--text-pure);
+        }
+
+        p {
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+            font-weight: 300;
+            font-size: 1.05rem;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+            transition: var(--transition-smooth);
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .gold-text {
+            background: var(--gold-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1320px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .section-padding {
+            padding: 7rem 0;
+        }
+
+        .bg-darker {
+            background-color: var(--bg-surface);
+            position: relative;
+        }
+
+        .bg-elevated {
+            background-color: var(--bg-elevated);
+        }
+
+        /* Header & Navigation */
+        .main-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background: rgba(5, 5, 7, 0.85);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border-subtle);
+            transition: var(--transition-smooth);
+        }
+
+        .main-header.scrolled {
+            background: rgba(5, 5, 7, 0.96);
+            border-bottom: 1px solid var(--border-highlight);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 90px;
+        }
+
+        /* Circular Logo Badge with Picture */
+        .logo-wrap {
+            display: flex;
+            align-items: center;
+            gap: 1.1rem;
+            text-decoration: none;
+        }
+
+        .header-avatar-circle {
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid var(--gold-primary);
+            box-shadow: 0 0 15px var(--gold-glow);
+            transition: var(--transition-smooth);
+        }
+
+        .logo-wrap:hover .header-avatar-circle {
+            transform: scale(1.06);
+            box-shadow: 0 0 22px rgba(212, 175, 55, 0.5);
+            border-color: var(--gold-light);
+        }
+
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .name-row {
+            font-family: var(--font-display);
+            font-size: 1.45rem;
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: 0.02em;
+        }
+
+        .name-white {
+            color: var(--text-pure);
+        }
+
+        .name-gold {
+            background: var(--gold-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .logo-sub {
+            font-family: var(--font-body);
+            font-size: 0.65rem;
+            font-weight: 600;
+            letter-spacing: 0.22em;
+            color: var(--gold-primary);
+            margin-top: 3px;
+            text-transform: uppercase;
+        }
+
+        /* Desktop Nav & Menu Button */
+        .desktop-nav {
+            display: flex;
+            align-items: center;
+            gap: 2.5rem;
+        }
+
+        .desktop-nav a {
+            font-size: 0.92rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--text-ivory);
+            position: relative;
+            padding: 0.5rem 0;
+        }
+
+        .desktop-nav a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0%;
+            height: 2px;
+            background: var(--gold-gradient);
+            transition: var(--transition-smooth);
+        }
+
+        .desktop-nav a:hover::after,
+        .desktop-nav a.active::after {
+            width: 100%;
+        }
+
+        .desktop-nav a:hover,
+        .desktop-nav a.active {
+            color: var(--gold-light);
+        }
+
+        .menu-toggle {
+            display: none;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            flex-direction: column;
+            gap: 7px;
+            z-index: 1100;
+        }
+
+        .menu-toggle .bar {
+            width: 30px;
+            height: 2px;
+            background: var(--gold-primary);
+            transition: var(--transition-smooth);
+        }
+
+        .menu-toggle.active .bar:nth-child(1) {
+            transform: translateY(9px) rotate(45deg);
+        }
+
+        .menu-toggle.active .bar:nth-child(2) {
+            transform: translateY(-0px) rotate(-45deg);
+        }
+
+        /* Fullscreen Navigation Overlay */
+        .menu-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: rgba(5, 5, 7, 0.98);
+            backdrop-filter: blur(25px);
+            z-index: 999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition-smooth);
+        }
+
+        .menu-overlay.open {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .overlay-nav ul {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .overlay-nav ul li a {
+            font-family: var(--font-display);
+            font-size: 2.2rem;
+            color: var(--text-ivory);
+            letter-spacing: 0.05em;
+        }
+
+        .overlay-nav ul li a:hover,
+        .overlay-nav ul li a.active {
+            color: var(--gold-primary);
+        }
+
+        /* Buttons & Calls to Action */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1.1rem 2.4rem;
+            border-radius: 4px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            border: 1px solid transparent;
+            text-align: center;
+        }
+
+        .btn-gold {
+            background: var(--gold-gradient);
+            color: #050507;
+            box-shadow: 0 6px 25px rgba(212, 175, 55, 0.35);
+        }
+
+        .btn-gold:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 35px rgba(212, 175, 55, 0.55);
+            background: linear-gradient(135deg, #ffffff 0%, #d4af37 60%, #997d20 100%);
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 1px solid var(--border-highlight);
+            color: var(--text-ivory);
+        }
+
+        .btn-outline:hover {
+            border-color: var(--gold-primary);
+            background: rgba(212, 175, 55, 0.08);
+            color: var(--gold-light);
+            transform: translateY(-3px);
+        }
+
+        .btn-full {
+            width: 100%;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            padding-top: 180px;
+            padding-bottom: 9rem;
+            background: radial-gradient(circle at 50% 25%, rgba(212, 175, 55, 0.08) 0%, transparent 65%);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .hero-layout {
+            display: grid;
+            grid-template-columns: 1.25fr 0.75fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .hero-tagline {
+            display: inline-block;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.25em;
+            color: var(--gold-primary);
+            padding: 0.4rem 1.2rem;
+            background: rgba(212, 175, 55, 0.08);
+            border: 1px solid var(--border-subtle);
+            border-radius: 50px;
+            margin-bottom: 1.8rem;
+        }
+
+        .hero-title {
+            font-size: 3.8rem;
+            line-height: 1.15;
+            margin-bottom: 2rem;
+            font-weight: 900;
+        }
+
+        .hero-lead {
+            font-size: 1.25rem;
+            line-height: 1.8;
+            color: var(--text-ivory);
+            margin-bottom: 2.8rem;
+            font-weight: 300;
+        }
+
+        .hero-cta-cluster {
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+            margin-bottom: 3.5rem;
+            flex-wrap: wrap;
+        }
+
+        .hero-stats-panel {
+            background: rgba(12, 12, 18, 0.85);
+            border: 1px solid var(--border-highlight);
+            border-radius: 12px;
+            padding: 2.5rem;
+            backdrop-filter: blur(12px);
+            box-shadow: var(--shadow-card);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+
+        .stat-item {
+            border-left: 2px solid var(--gold-primary);
+            padding-left: 1.2rem;
+        }
+
+        .stat-number {
+            font-family: var(--font-display);
+            font-size: 2.4rem;
+            font-weight: 700;
+            color: var(--gold-light);
+            line-height: 1;
+            margin-bottom: 0.4rem;
+        }
+
+        .stat-label {
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--text-muted);
+            line-height: 1.3;
+        }
+
+        /* Section Header Common */
+        .section-header {
+            text-align: center;
+            max-width: 860px;
+            margin: 0 auto 5rem;
+        }
+
+        .section-tag {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.25em;
+            color: var(--gold-primary);
+            font-weight: 600;
+            margin-bottom: 0.8rem;
+            display: block;
+        }
+
+        .section-title {
+            font-size: 2.8rem;
+            margin-bottom: 1.4rem;
+        }
+
+        .section-desc {
+            font-size: 1.12rem;
+            color: var(--text-muted);
+            line-height: 1.8;
+        }
+
+        /* Manifesto Grid */
+        .manifesto-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2.5rem;
+        }
+
+        .manifesto-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 3rem 2.2rem;
+            transition: var(--transition-smooth);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .manifesto-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: var(--gold-gradient);
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: var(--transition-smooth);
+        }
+
+        .manifesto-card:hover {
+            border-color: var(--border-highlight);
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-card);
+        }
+
+        .manifesto-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .manifesto-num {
+            font-family: var(--font-display);
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--gold-primary);
+            margin-bottom: 1.2rem;
+            display: block;
+        }
+
+        .manifesto-card h3 {
+            font-size: 1.45rem;
+            margin-bottom: 1.2rem;
+        }
+
+        .manifesto-card p {
+            font-size: 0.98rem;
+            line-height: 1.75;
+            color: var(--text-muted);
+            margin-bottom: 0;
+        }
+
+        /* 12 Master Services Section (Massive 5x Depth) */
+        .services-master-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2.5rem;
+        }
+
+        .service-deep-box {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 3.5rem 3rem;
+            transition: var(--transition-smooth);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .service-deep-box:hover {
+            border-color: var(--gold-primary);
+            box-shadow: 0 15px 45px rgba(0, 0, 0, 0.7);
+            transform: translateY(-5px);
+        }
+
+        .service-header-cluster {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1.8rem;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+            padding-bottom: 1.5rem;
+        }
+
+        .service-deep-box h3 {
+            font-size: 1.7rem;
+            line-height: 1.3;
+        }
+
+        .service-badge {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            padding: 0.35rem 0.8rem;
+            background: rgba(212, 175, 55, 0.1);
+            color: var(--gold-light);
+            border: 1px solid var(--border-subtle);
+            border-radius: 4px;
+            white-space: nowrap;
+        }
+
+        .service-deep-text {
+            font-size: 1.02rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+        }
+
+        .service-deliverables-box {
+            background: rgba(5, 5, 7, 0.6);
+            border: 1px solid rgba(212, 175, 55, 0.12);
+            border-radius: 6px;
+            padding: 1.8rem;
+            margin-bottom: 2rem;
+        }
+
+        .service-deliverables-box h4 {
+            font-family: var(--font-body);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--gold-primary);
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .service-deliverables-box ul {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0.7rem;
+        }
+
+        .service-deliverables-box ul li {
+            font-size: 0.92rem;
+            color: var(--text-ivory);
+            position: relative;
+            padding-left: 1.4rem;
+            line-height: 1.5;
+        }
+
+        .service-deliverables-box ul li::before {
+            content: '•';
+            color: var(--gold-primary);
+            position: absolute;
+            left: 0;
+            font-size: 1.3rem;
+            line-height: 1;
+            top: -2px;
+        }
+
+        .service-footer-action {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: auto;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(212, 175, 55, 0.08);
+        }
+
+        .service-action-link {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            font-weight: 600;
+            color: var(--gold-light);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .service-action-link:hover {
+            color: var(--text-pure);
+            transform: translateX(4px);
+        }
+
+        /* 4-Stage Protocol Architecture */
+        .protocol-row {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+
+        .protocol-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 2.8rem 2rem;
+            position: relative;
+            transition: var(--transition-smooth);
+        }
+
+        .protocol-card:hover {
+            border-color: var(--gold-primary);
+            transform: translateY(-6px);
+        }
+
+        .protocol-step {
+            display: inline-block;
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 0.2em;
+            color: var(--gold-primary);
+            margin-bottom: 1.2rem;
+            text-transform: uppercase;
+        }
+
+        .protocol-card h3 {
+            font-size: 1.35rem;
+            margin-bottom: 1rem;
+        }
+
+        .protocol-card p {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            margin-bottom: 0;
+            line-height: 1.7;
+        }
+
+        /* Vault Teaser Feature */
+        .vault-teaser-box {
+            background: linear-gradient(145deg, #0e0e17 0%, #050507 100%);
+            border: 1px solid var(--border-highlight);
+            border-radius: 12px;
+            padding: 5rem 4rem;
+            box-shadow: var(--shadow-card);
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .vault-feature-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin: 2.5rem 0;
+        }
+
+        .vault-feature-item {
+            font-size: 0.95rem;
+            color: var(--text-ivory);
+            border-left: 2px solid var(--gold-primary);
+            padding-left: 1rem;
+        }
+
+        .vault-counter-badge {
+            text-align: center;
+            background: rgba(12, 12, 18, 0.9);
+            border: 1px solid var(--border-subtle);
+            padding: 3.5rem 2.5rem;
+            border-radius: 10px;
+        }
+
+        .counter-big {
+            font-family: var(--font-display);
+            font-size: 5rem;
+            font-weight: 900;
+            color: var(--gold-light);
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Author Testimonial Quotes Grid */
+        .testimonial-home-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2.5rem;
+        }
+
+        .testimonial-home-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 3rem 2.5rem;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .testimonial-home-card:hover {
+            border-color: var(--border-highlight);
+        }
+
+        .quote-glyph {
+            font-family: var(--font-display);
+            font-size: 3.5rem;
+            line-height: 1;
+            color: var(--gold-primary);
+            opacity: 0.35;
+            margin-bottom: 1rem;
+        }
+
+        .testimonial-home-card p {
+            font-size: 1rem;
+            font-style: italic;
+            color: var(--text-ivory);
+            line-height: 1.8;
+            margin-bottom: 2rem;
+        }
+
+        .author-meta-block {
+            border-top: 1px solid rgba(212, 175, 55, 0.12);
+            padding-top: 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .author-monogram {
+            font-family: var(--font-display);
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--gold-light);
+        }
+
+        .author-category-tag {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+
+        /* Interactive FAQ Accordion */
+        .faq-accordion-container {
+            max-width: 960px;
+            margin: 0 auto;
+        }
+
+        .faq-accordion-item {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: 6px;
+            margin-bottom: 1.5rem;
+            overflow: hidden;
+            transition: var(--transition-smooth);
+        }
+
+        .faq-accordion-item:hover {
+            border-color: var(--border-highlight);
+        }
+
+        .faq-trigger {
+            width: 100%;
+            padding: 1.8rem 2.2rem;
+            background: transparent;
+            border: none;
+            text-align: left;
+            font-family: var(--font-display);
+            font-size: 1.25rem;
+            color: var(--text-pure);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-indicator {
+            font-size: 1.4rem;
+            color: var(--gold-primary);
+            transition: var(--transition-smooth);
+            font-family: var(--font-body);
+        }
+
+        .faq-accordion-item.open .faq-indicator {
+            transform: rotate(45deg);
+        }
+
+        .faq-panel {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.45s ease-out;
+            padding: 0 2.2rem;
+        }
+
+        .faq-accordion-item.open .faq-panel {
+            padding-bottom: 2rem;
+        }
+
+        .faq-panel p {
+            font-size: 1.02rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+            margin-bottom: 0;
+        }
+
+        /* Direct Consultation Portal */
+        .consult-portal {
+            background: radial-gradient(circle at 50% 50%, rgba(20, 20, 32, 0.9) 0%, var(--bg-obsidian) 100%);
+            border-top: 1px solid var(--border-subtle);
+        }
+
+        .consult-layout {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 5rem;
+            align-items: flex-start;
+        }
+
+        .consult-details h2 {
+            font-size: 2.8rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .consult-details p {
+            font-size: 1.08rem;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+        }
+
+        .consult-points {
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+            margin-top: 2.5rem;
+        }
+
+        .consult-point {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-start;
+        }
+
+        .consult-point-icon {
+            color: var(--gold-primary);
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .author-form {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-highlight);
+            padding: 3.5rem 3rem;
+            border-radius: 12px;
+            box-shadow: var(--shadow-card);
+        }
+
+        .form-group {
+            margin-bottom: 1.8rem;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: var(--gold-light);
+            margin-bottom: 0.7rem;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            background: rgba(5, 5, 7, 0.8);
+            border: 1px solid var(--border-subtle);
+            border-radius: 4px;
+            padding: 1.1rem 1.4rem;
+            font-family: var(--font-body);
+            font-size: 1rem;
+            color: var(--text-pure);
+            transition: var(--transition-smooth);
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--gold-primary);
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.2);
+            background: #09090e;
+        }
+
+        .form-group select option {
+            background: var(--bg-surface);
+            color: var(--text-ivory);
+        }
+
+        .form-status {
+            margin-top: 1.5rem;
+            padding: 1rem;
+            border-radius: 4px;
+            text-align: center;
+            font-weight: 500;
+            display: none;
+        }
+
+        .form-status.success {
+            display: block;
+            background: rgba(46, 125, 50, 0.15);
+            border: 1px solid #2e7d32;
+            color: #81c784;
+        }
+
+        .form-status.error {
+            display: block;
+            background: rgba(198, 40, 40, 0.15);
+            border: 1px solid #c62828;
+            color: #ef9a9a;
+        }
+
+        /* Footer */
+        .main-footer {
+            background-color: #030304;
+            border-top: 1px solid var(--border-subtle);
+            padding: 6rem 0 3rem;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1.5fr;
+            gap: 4rem;
+            margin-bottom: 5rem;
+        }
+
+        .footer-brand .logo-wrap {
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-brand p {
+            font-size: 0.95rem;
+            line-height: 1.8;
+            max-width: 360px;
+        }
+
+        .footer-col h4 {
+            font-family: var(--font-body);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.18em;
+            color: var(--gold-primary);
+            margin-bottom: 1.8rem;
+            font-weight: 600;
+        }
+
+        .footer-col ul {
+            display: flex;
+            flex-direction: column;
+            gap: 0.9rem;
+        }
+
+        .footer-col ul li a {
+            font-size: 0.92rem;
+            color: var(--text-muted);
+        }
+
+        .footer-col ul li a:hover {
+            color: var(--gold-light);
+            padding-left: 4px;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding-top: 2.5rem;
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-dim);
+        }
+
+        /* Scroll Reveal Utility Classes */
+        .reveal {
+            opacity: 0;
+            transform: translateY(35px);
+            transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Responsive Breakpoints */
+        @media (max-width: 1100px) {
+            .hero-layout,
+            .consult-layout,
+            .vault-teaser-box {
+                grid-template-columns: 1fr;
+                gap: 3.5rem;
+            }
+            .services-master-grid,
+            .manifesto-grid,
+            .testimonial-home-grid {
+                grid-template-columns: 1fr;
+            }
+            .protocol-row {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 3rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .desktop-nav {
+                display: none;
+            }
+            .menu-toggle {
+                display: flex;
+            }
+            .hero-title {
+                font-size: 2.6rem;
+            }
+            .section-title {
+                font-size: 2.1rem;
+            }
+            .stats-grid,
+            .form-row,
+            .vault-feature-list {
+                grid-template-columns: 1fr;
+            }
+            .protocol-row {
+                grid-template-columns: 1fr;
+            }
+            .author-form {
+                padding: 2.2rem 1.6rem;
+            }
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Fullscreen Menu Overlay -->
+    <div class="menu-overlay" id="menuOverlay">
+        <nav class="overlay-nav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about/index.html">The Strategist</a></li>
+                <li><a href="services/index.html">12 Marketing Services</a></li>
+                <li><a href="resources/index.html">18 Resource Vaults</a></li>
+                <li><a href="testimonials/index.html">Author Case Studies</a></li>
+                <li><a href="contact/index.html">Direct Consult</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Main Navigation Header -->
+    <header class="main-header" id="mainHeader">
+        <div class="container">
+            <div class="header-content">
+                <!-- Circular Avatar & Brand Name Cluster -->
+                <a href="index.html" class="logo-wrap" title="Basit Ayoola - Bestseller Whisperer">
+                    <img src="assets/images/basitic.jpg" alt="Basit Ayoola" class="header-avatar-circle">
+                    <div class="logo-text">
+                        <div class="name-row">
+                            <span class="name-white">Basit</span> <span class="name-gold">Ayoola</span>
+                        </div>
+                        <span class="logo-sub">BESTSELLER WHISPERER</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Primary Links -->
+                <nav class="desktop-nav">
+                    <a href="index.html" class="active">Home</a>
+                    <a href="about/index.html">Strategist</a>
+                    <a href="services/index.html">Services</a>
+                    <a href="resources/index.html">Resources</a>
+                    <a href="testimonials/index.html">Results</a>
+                    <a href="contact/index.html">Consult</a>
+                </nav>
+
+                <!-- Mobile Menu Hamburger -->
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section: Elite Positioning & Metric Engine -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-layout">
+                <div class="hero-copy reveal">
+                    <span class="hero-tagline">Architect of Author Stardom</span>
+                    <h1 class="hero-title">Engineering Books into <span class="gold-text">Market Dominance</span></h1>
+                    <p class="hero-lead">
+                        I am Basit Ayoola, the Bestseller Whisperer. For over a decade, I have replaced hope with data-driven architecture, guiding fiction and non-fiction authors through the algorithms of Amazon KDP, BookTok, and high-conversion publishing funnels.
+                    </p>
+                    <div class="hero-cta-cluster">
+                        <a href="contact/index.html" class="btn btn-gold">Commission A Strategy</a>
+                        <a href="services/index.html" class="btn btn-outline">Explore All 12 Services</a>
+                    </div>
+                </div>
+
+                <div class="hero-stats-panel reveal">
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Algorithmic Precision in KDP Backend Indexing</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">18+</div>
+                            <div class="stat-label">Proprietary Strategy Manuals in Resource Vault</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">12</div>
+                            <div class="stat-label">Integrated Publishing & Scaling Services</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">400%</div>
+                            <div class="stat-label">Average Organic Visibility Expansion</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Strategic Philosophy Manifesto -->
+    <section class="section-padding bg-darker">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">The Whisperer Manifesto</span>
+                <h2 class="section-title">The Modern Anatomy of <span class="gold-text">Book Discovery</span></h2>
+                <p class="section-desc">
+                    Publishing excellence alone is no longer enough to win readers. The world's finest manuscripts die in obscurity every single day simply because their creators rely on outdated, traditional PR methods. In the modern literary marketplace, sales velocity is determined by algorithmic mechanics, visual conversion hierarchy, and precision reader targeting.
+                </p>
+            </div>
+
+            <div class="manifesto-grid">
+                <div class="manifesto-card reveal">
+                    <span class="manifesto-num">01</span>
+                    <h3>Algorithmic Alignment</h3>
+                    <p>
+                        The Amazon A10 algorithm and TikTok recommendation engines are not subjective art critics. They are mathematical systems that measure velocity, click-through rates, and retention. We configure your titles to feed these algorithms exactly what they demand to unlock perpetual organic exposure.
+                    </p>
+                </div>
+
+                <div class="manifesto-card reveal">
+                    <span class="manifesto-num">02</span>
+                    <h3>Visual Conversion Science</h3>
+                    <p>
+                        A reader decides whether to sample your book within three seconds of landing on your page. Through custom A+ Content, high-production 3D mockups, and psychologically engineered book descriptions, we transform casual casual window-shoppers into eager buyers.
+                    </p>
+                </div>
+
+                <div class="manifesto-card reveal">
+                    <span class="manifesto-num">03</span>
+                    <h3>Ecosystem Longevity</h3>
+                    <p>
+                        A single book launch is an asset: a structured backlist is an enterprise. We build automated email funnels, reader communities, and cross-platform multi-format distribution that turn readers of your first title into lifelong collectors of your entire body of work.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The 12 Master Services Architecture (Massive 5x Depth) -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Comprehensive Capabilities</span>
+                <h2 class="section-title">The Twelve Pillars of <span class="gold-text">Author Success</span></h2>
+                <p class="section-desc">
+                    Every service offered by Basit Ayoola represents an end-to-end operational framework. We do not provide superficial advice: we execute the technical heavy lifting necessary to position your book at the summit of its genre.
+                </p>
+            </div>
+
+            <div class="services-master-grid">
+
+                <!-- Service 01 -->
+                <div class="service-deep-box reveal">
+                    <div>
+                        <div class="service-header-cluster">
+                            <h3>Amazon Metadata Optimization</h3>
+                            <span class="service-badge">KDP Engine</span>
+                        </div>
+                        <p class="service-deep-text">
+                            Deep structural audit and reconfiguration of your Kindle Direct Publishing backend. We dissect your subtitle, series naming conventions, contributing fields, and internal categorization to unlock hidden algorithmic triggers that position your book directly in front of active buyers.
+                        </p>
+                        <div class="service-deliverables-box">
+                            <h4>Core Strategic Deliverables:</h4>
+                            <ul>
+                                <li>Complete 20-point backend metadata audit and diagnostic report</li>
+                                <li>Sub-category re-nesting strategy to claim top 10 category rank</li>
+                                <li>Series numbering, title syntax, and subtitle conversion enhancement</li>
+                                <li>Algorithmic trigger setup for Amazon Also-Bought cross-pollination</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="service-footer-action">
+                        <a href="services/index.html#metadata" class="service-action-link">Explore Service Details &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Service 02 -->
+                <div class="service-deep-box reveal">
+                    <div>
+                        <div class="service-header-cluster">
+                            <h3>Advanced Keyword Research</h3>
+                            <span class="service-badge">Search Intelligence</span>
+                        </div>
+                        <p class="service-deep-text">
+                            High-intent search term intelligence based on verified consumer purchase data. We bypass crowded, low-intent terms to target high-yield, long-tail search strings that capture readers who are actively looking with wallets in hand.
+                        </p>
+                        <div class="service-deliverables-box">
+                            <h4>Core Strategic Deliverables:</h4>
+                            <ul>
+                                <li>Exhaustive ASIN reverse-engineering of genre category leaders</li>
+                                <li>Identification of seven primary 50-character search phrases</li>
+                                <li>Long-tail buyer intent mapping for search bar autosuggest dominance</li>
+                                <li>Quarterly keyword iteration blueprint to maintain search rank</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="service-footer-action">
+                        <a href="services/index.html#keywords" class="service-action-link">Explore Service Details &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Service 03 -->
+                <div class="service-deep-box reveal">
+                    <div>
+                        <div class="service-header-cluster">
+                            <h3>Amazon A+ Content Design</h3>
+                            <span class="service-badge">Visual Conversion</span>
+                        </div>
+                        <p class="service-deep-text">
+                            Bespoke graphic real estate that occupies the central detail page on Amazon. We build editorial reviews, trope banners, character profiles, and aesthetic series comparison tables that dramatically lift page-read conversions and hardcopy sales.
+                        </p>
+                        <div class="service-deliverables-box">
+                            <h4>Core Strategic Deliverables:</h4>
+                            <ul>
+                                <li>Custom multi-panel modular visual assets designed for mobile and desktop</li>
+                                <li>Character breakdown cards, aesthetic atmosphere headers, and quote graphics</li>
+                                <li>Interactive series cross-sell comparison tables to drive backlist volume</li>
+                                <li>High-resolution compliance assets ready for immediate KDP approval</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="service-footer-action">
+                        <a href="services/index.html#aplus" class="service-action-link">Explore Service Details &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Service 04 -->
+                <div class="service-deep-box reveal">
+                    <div>
+                        <div class="service-header-cluster">
+                            <h3>TikTok Marketing (BookTok)</h3>
+                            <span class="service-badge">Viral Distribution</span>
+                        </div>
+                        <p class="service-deep-text">
+                            Harnessing the immense organic power of BookTok. We formulate viral story hooks, micro-trailers, trope showcases, and trending sound strategies designed to build rapid organic community engagement and ignite Kindle Unlimited read spikes.
+                        </p>
+                        <div class="service-deliverables-box">
+                            <h4>Core Strategic Deliverables:</h4>
+                            <ul>
+                                <li>30-day algorithmic video scripting roadmap based on current genre tropes</li>
+                                <li>Hook, Story, and Payoff retention editing blueprint for short-form clips</li>
+                                <li>Strategic BookTok influencer outreach templates and micro-creator seeding</li>
+                                <li>Profile bio and direct link configuration to minimize conversion drop-off</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="service-footer-action">
+                        <a href="services/index.html#booktok" class="service-action-link">Explore Service Details &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Service 05 -->
+                <div class="service-deep-box reveal">
+                    <div>
+                        <div class="service-header-cluster">
+                            <h3>Social Media Management</h3>
+                            <span class="service-badge">Audience Cultivation</span>
+                        </div>
+                        <p class="service-deep-text">
+                            End-to-end brand management across Instagram, Facebook, and Threads. We maintain your public persona, broadcast your literary world, and build direct emotional connections with your readers without you sacrificing precious writing time.
+                        </p>
+                        <div class="service-deliverables-box">
+                            <h4>Core Strategic Deliverables:</h4>
+                            <ul>
+                                <li>Full monthly editorial calendar encompassing release hype and worldbuilding</li>
+                                <li>Bespoke graphic design assets aligned with your author visual aesthetic</li>
+                                <li>Proactive engagement workflows to foster hyper-engaged super-fan circles</li>
+                                <li>Platform-specific copywriting optimized for saves, shares, and clicks</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="service-footer-action">
+                        <a href="services/index.html#social" class="service-action-link">Explore Service Details &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Service 06 -->
+                <div class="service-deep-box reveal">
+                    <div>
+                        <div class="service-header-cluster">
+                            <h3>Book Club Placement</h3>
+                            <span class="service-badge">Grassroots Advocacy</span>
+                        </div>
+                        <p class="service-deep-text">
+                            Grassroots advocacy through curated reader communities, independent reading groups, and virtual book circles. We introduce your book directly into active reading clubs, triggering authentic reviews and sustained word-of-mouth momentum.
+                        </p>
+                        <div class="service-deliverables-box">
+                            <h4>Core Strategic Deliverables:</h4>
+                            <ul>
+                                <li>Bespoke Author Discussion Packets, chapter discussion questions, and extras</li>
+                                <li>Targeted outreach campaigns to independent digital and regional book clubs</li>
+                                <li>Goodreads, StoryGraph, and BookBub group placement facilitation</li>
+                                <li>Direct author Q&A coordinate frameworks for high-impact group sessions</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="service-footer-action">
+                        <a href="services/index.html#bookclubs" class="service-action-link">Explore Service Details &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Service 07 -->
+                <div class="service-deep-box reveal">
+                    <div>
+                        <div class="service-header-cluster">
+                            <h3>TikTok Shop Accelerator</h3>
+                            <span class="service-badge">Direct Commerce</span>
+                        </div>
+                        <p class="service-deep-text">
+                            Direct-to-consumer storefront monetization on TikTok Shop. We assist you in establishing your seller infrastructure, product listings, and shoppable video content to capitalize on impulsive readers and signed edition collectors.
+                        </p>
+                        <div class="service-deliverables-box">
+                            <h4>Core Strategic Deliverables:</h4>
+                            <ul>
+                                <li>Complete TikTok Shop seller account configuration and inventory link</li>
+                                <li>Product showcase optimization for physical books, signed bundles, and swag</li>
+                                <li>Live-stream sales frameworks and direct shoppable video tags setup</li>
+                                <li>Affiliate collaboration setup for other creators to sell your books for commissions</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="service-footer-action">
+                        <a href="services/index.html#tiktokshop" class="service-action-link">Explore Service Details &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Service 08 -->
+                <div class="service-deep-box reveal">
+                    <div>
+                        <div class="service-header-cluster">
+                            <h3>Audiobook Production</h3>
+                            <span class="service-badge">Multi-Format Expansion</span>
+                        </div>
+                        <p class="service-deep-text">
+                            Tapping into the fastest growing sector in publishing. We guide you through professional voice talent casting, ACX audio engineering standards, and worldwide distribution via Audible, Apple Books, and Spotify.
+                        </p>
+                        <div class="service-deliverables-box">
+                            <h4>Core Strategic Deliverables:</h4>
+                            <ul>
+                                <li>Narrator audition management and vocal match casting guidance</li>
+                                <li>Technical quality control for ACX, Audible, and Findaway engineering standards</li>
+                                <li>Audio cover art design optimized for square digital marketplace viewports</li>
+                                <li>Distribution strategy modeling between exclusive Audible vs. Wide distribution</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="service-footer-action">
+                        <a href="services/index.html#audiobook" class="service-action-link">Explore Service Details &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Service 09 -->
+                <div class="service-deep-box reveal">
+                    <div>
+                        <div class="service-header-cluster">
+                            <h3>Book Publishing Guidance & Setup</h3>
+                            <span class="service-badge">Publishing Architecture</span>
+                        </div>
+                        <p class="service-deep-text">
+                            Comprehensive setup for authors entering self-publishing or launching an independent imprint. We oversee ISBN allocation, copyright best practices, IngramSpark distribution, and formatting verification.
+                        </p>
+                        <div class="service-deliverables-box">
+                            <h4>Core Strategic Deliverables:</h4>
+                            <ul>
+                                <li>End-to-end setup across KDP, IngramSpark, Barnes & Noble Press, and Draft2Digital</li>
+                                <li>Imprint branding, barcode generation, and legal copyright guidance</li>
+                                <li>Interior epub, mobi, and print-ready PDF verification across all e-readers</li>
+                                <li>Pricing architecture, pre-order coordination, and tax compliance setup</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="service-footer-action">
+                        <a href="services/index.html#publishing" class="service-action-link">Explore Service Details &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Service 10 -->
+                <div class="service-deep-box reveal">
+                    <div>
+                        <div class="service-header-cluster">
+                            <h3>Book Mockups & Trailer Production</h3>
+                            <span class="service-badge">Cinematic Media</span>
+                        </div>
+                        <p class="service-deep-text">
+                            Cinematic video teasers and photorealistic 3D graphic mockups that elevate your manuscript into a premium entertainment commodity. Perfect for social advertisements, website headers, and promotional launch campaigns.
+                        </p>
+                        <div class="service-deliverables-box">
+                            <h4>Core Strategic Deliverables:</h4>
+                            <ul>
+                                <li>Ultra-realistic 3D hardback, paperback, and e-reader promotional renders</li>
+                                <li>High-definition cinematic book trailers with licensed audio and visual effects</li>
+                                <li>Social media promo bundles designed for Instagram Reels and TikTok Stories</li>
+                                <li>Transparent PNG marketing assets for easy press kit and media integration</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="service-footer-action">
+                        <a href="services/index.html#mockups" class="service-action-link">Explore Service Details &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Service 11 -->
+                <div class="service-deep-box reveal">
+                    <div>
+                        <div class="service-header-cluster">
+                            <h3>Author Website Creation</h3>
+                            <span class="service-badge">Digital Flagship</span>
+                        </div>
+                        <p class="service-deep-text">
+                            Custom-built, ultra-fast, and responsive digital flagships designed specifically to showcase author bibliographies, capture newsletter subscribers, and drive direct book sales with zero third-party distractions.
+                        </p>
+                        <div class="service-deliverables-box">
+                            <h4>Core Strategic Deliverables:</h4>
+                            <ul>
+                                <li>Custom dark luxury UI design engineered for desktop, tablet, and mobile speed</li>
+                                <li>Integrated reader lead magnets and newsletter automated onboarding hooks</li>
+                                <li>Comprehensive interactive bibliography with one-click retailer checkout links</li>
+                                <li>Clean, lightweight, modern web architecture with robust SEO indexing</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="service-footer-action">
+                        <a href="services/index.html#websites" class="service-action-link">Explore Service Details &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Service 12 -->
+                <div class="service-deep-box reveal">
+                    <div>
+                        <div class="service-header-cluster">
+                            <h3>Sales Funnel Marketing</h3>
+                            <span class="service-badge">Lifetime Value</span>
+                        </div>
+                        <p class="service-deep-text">
+                            High-converting reader acquisition pipelines that transform first-time buyers into dedicated superfans. We build automated onboarding sequences, bonus epilogue funnels, and backlist cross-promotional automations.
+                        </p>
+                        <div class="service-deliverables-box">
+                            <h4>Core Strategic Deliverables:</h4>
+                            <ul>
+                                <li>Cookie-less reader magnet landing page creation with high-conversion copy</li>
+                                <li>Automated 5-part email welcome and brand indoctrination sequence</li>
+                                <li>Backlist cross-promotional sequences to maximize revenue per acquired reader</li>
+                                <li>Pixel setup, event tracking, and conversion drop-off forensic analysis</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="service-footer-action">
+                        <a href="services/index.html#funnels" class="service-action-link">Explore Service Details &rarr;</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- The 4-Stage Operational Protocol -->
+    <section class="section-padding bg-darker">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Systematic Execution</span>
+                <h2 class="section-title">The Four-Stage <span class="gold-text">Ascent Protocol</span></h2>
+                <p class="section-desc">
+                    We eliminate guesswork by processing every title through an exhaustive, four-phase operational blueprint designed to identify vulnerabilities and maximize market upside.
+                </p>
+            </div>
+
+            <div class="protocol-row">
+                <div class="protocol-card reveal">
+                    <span class="protocol-step">Stage 01</span>
+                    <h3>Diagnostic Audit</h3>
+                    <p>
+                        Forensic deconstruction of current metadata, category positioning, blurb psychology, competitor keywords, and retail page conversion leaks.
+                    </p>
+                </div>
+
+                <div class="protocol-card reveal">
+                    <span class="protocol-step">Stage 02</span>
+                    <h3>Infrastructure Rebuild</h3>
+                    <p>
+                        Installation of high-conversion A+ Content, optimized 50-character search phrases, re-categorization, and mobile-optimized sales descriptions.
+                    </p>
+                </div>
+
+                <div class="protocol-card reveal">
+                    <span class="protocol-step">Stage 03</span>
+                    <h3>Traffic Ignition</h3>
+                    <p>
+                        Coordinated activation across BookTok trope videos, targeted social media campaigns, book club distribution, and influencer seeding.
+                    </p>
+                </div>
+
+                <div class="protocol-card reveal">
+                    <span class="protocol-step">Stage 04</span>
+                    <h3>Ecosystem Scale</h3>
+                    <p>
+                        Deployment of automated reader onboarding funnels, audiobook expansion, TikTok Shop integration, and backlist velocity loops.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 18 Resource Vault Showcase Feature -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="vault-teaser-box reveal">
+                <div>
+                    <span class="section-tag">The Complete Curriculum</span>
+                    <h2 class="section-title">The Author Resource <span class="gold-text">Vault</span></h2>
+                    <p class="section-desc">
+                        Gain direct access to eighteen proprietary workbooks, launch planners, and technical blueprints written and developed by Basit Ayoola. These guides contain the exact systems used to launch and revive bestselling titles across every major genre.
+                    </p>
+                    <div class="vault-feature-list">
+                        <div class="vault-feature-item">Amazon KDP Optimization Handbook</div>
+                        <div class="vault-feature-item">30-Day BookTok Content Calendar</div>
+                        <div class="vault-feature-item">90-Day Book Launch Operational Plan</div>
+                        <div class="vault-feature-item">Advanced Keyword Research Workbook</div>
+                        <div class="vault-feature-item">Amazon A+ Content Design Blueprint</div>
+                        <div class="vault-feature-item">Author Funnel & Email Growth Manual</div>
+                    </div>
+                    <a href="resources/index.html" class="btn btn-gold">Explore The Full 18-PDF Library &rarr;</a>
+                </div>
+
+                <div class="vault-counter-badge">
+                    <div class="counter-big">18</div>
+                    <h3 style="font-size: 1.4rem; margin-bottom: 0.5rem;">Proprietary Guides</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0;">Comprehensive architectural assets available for immediate download in our dedicated resource vault.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Author Testimonials Case Snippets (Initials Only) -->
+    <section class="section-padding bg-darker">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Field-Tested Evidence</span>
+                <h2 class="section-title">Voices from the <span class="gold-text">Bestseller Charts</span></h2>
+                <p class="section-desc">
+                    Real, verifiable outcomes achieved by independent and traditionally published authors who implemented the Bestseller Whisperer frameworks.
+                </p>
+            </div>
+
+            <div class="testimonial-home-grid">
+                <div class="testimonial-home-card reveal">
+                    <div>
+                        <div class="quote-glyph">“</div>
+                        <p>
+                            Basit transformed my thriller series from complete obscurity on page 40 to the top 5 of its primary Amazon category within three weeks. His metadata and keyword architecture are unmatched.
+                        </p>
+                    </div>
+                    <div class="author-meta-block">
+                        <span class="author-monogram">J.D.</span>
+                        <span class="author-category-tag">Mystery & Thriller</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-home-card reveal">
+                    <div>
+                        <div class="quote-glyph">“</div>
+                        <p>
+                            I had zero idea how to approach TikTok without feeling foolish. Basit built a trope-driven content schedule that resulted in a viral video with over 300,000 views and a massive surge in Kindle Unlimited reads.
+                        </p>
+                    </div>
+                    <div class="author-meta-block">
+                        <span class="author-monogram">M.K.</span>
+                        <span class="author-category-tag">Romance Novelist</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-home-card reveal">
+                    <div>
+                        <div class="quote-glyph">“</div>
+                        <p>
+                            The sales funnel and author website architecture Basit developed for my non-fiction book turned my readers into high-ticket consulting clients with a consistent 15 percent lead capture rate.
+                        </p>
+                    </div>
+                    <div class="author-meta-block">
+                        <span class="author-monogram">S.T.</span>
+                        <span class="author-category-tag">Business & Finance</span>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 3.5rem;" class="reveal">
+                <a href="testimonials/index.html" class="btn btn-outline">Read All In-Depth Case Studies &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comprehensive Interactive Pre-Engagement FAQ -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Clarity Before Engagement</span>
+                <h2 class="section-title">Frequently Asked <span class="gold-text">Questions</span></h2>
+                <p class="section-desc">
+                    Transparent answers to essential questions regarding consultation timelines, service execution, platform compliance, and campaign expectations.
+                </p>
+            </div>
+
+            <div class="faq-accordion-container reveal">
+                <div class="faq-accordion-item">
+                    <button class="faq-trigger" aria-expanded="false">
+                        <span>How rapidly can I expect to see ranking improvements on Amazon?</span>
+                        <span class="faq-indicator">+</span>
+                    </button>
+                    <div class="faq-panel">
+                        <p>
+                            Backend metadata and keyword optimizations typically begin indexing within 48 to 72 hours, with tangible movement in category ranking and search visibility noticeable within 14 to 21 days as the Amazon A10 algorithm aggregates new conversion and click-through data.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-accordion-item">
+                    <button class="faq-trigger" aria-expanded="false">
+                        <span>Do you work with authors prior to their official book launch?</span>
+                        <span class="faq-indicator">+</span>
+                    </button>
+                    <div class="faq-panel">
+                        <p>
+                            Yes. In fact, engaging 60 to 90 days before release is ideal. This allows us to establish your pre-order metadata architecture, assemble A+ Content visual assets, seed advance reader copies into book clubs, and execute a high-impact BookTok launch cadence.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-accordion-item">
+                    <button class="faq-trigger" aria-expanded="false">
+                        <span>Can you revive a stagnant backlist title that has been published for years?</span>
+                        <span class="faq-indicator">+</span>
+                    </button>
+                    <div class="faq-panel">
+                        <p>
+                            Backlist revival is one of our primary specialties. By conducting a forensic audit of why the book lost momentum, refreshing the blurb psychology, re-indexing keywords, and pairing the title with fresh short-form video tropes, we frequently re-ignite dormant catalogs.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-accordion-item">
+                    <button class="faq-trigger" aria-expanded="false">
+                        <span>What makes your BookTok marketing strategy different from generic ads?</span>
+                        <span class="faq-indicator">+</span>
+                    </button>
+                    <div class="faq-panel">
+                        <p>
+                            We do not treat BookTok as a place for traditional advertising. Readers reject overt corporate promotions. We construct native, trope-aligned micro-narratives that evoke intense emotional reactions, driving genuine curiosity and organic word-of-mouth momentum.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-accordion-item">
+                    <button class="faq-trigger" aria-expanded="false">
+                        <span>How does the direct consultation process begin?</span>
+                        <span class="faq-indicator">+</span>
+                    </button>
+                    <div class="faq-panel">
+                        <p>
+                            Simply submit your book details through the consultation portal below. We review your current retail listings, market genre, and objectives before scheduling an intensive strategy session to map out your custom trajectory.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Direct Strategic Booking Portal Section (Formspree Integrated) -->
+    <section class="section-padding consult-portal" id="consult">
+        <div class="container">
+            <div class="consult-layout">
+                <div class="consult-details reveal">
+                    <span class="section-tag">Direct Access</span>
+                    <h2 class="section-title">Initiate Your <span class="gold-text">Strategic Overhaul</span></h2>
+                    <p>
+                        Ready to elevate your book from obscurity to sustainable profitability? Complete the consultation brief below to initiate a private diagnostic with Basit Ayoola.
+                    </p>
+                    <p>
+                        We analyze your genre landscape, evaluate your existing packaging, and provide a clear, actionable blueprint engineered for immediate commercial growth.
+                    </p>
+
+                    <div class="consult-points">
+                        <div class="consult-point">
+                            <span class="consult-point-icon">&#10003;</span>
+                            <div>
+                                <strong style="color: var(--text-pure);">Direct Strategic Review:</strong> Every submission is personally reviewed by Basit Ayoola.
+                            </div>
+                        </div>
+                        <div class="consult-point">
+                            <span class="consult-point-icon">&#10003;</span>
+                            <div>
+                                <strong style="color: var(--text-pure);">100% Confidential:</strong> Your intellectual property, sales metrics, and drafts remain strictly protected.
+                            </div>
+                        </div>
+                        <div class="consult-point">
+                            <span class="consult-point-icon">&#10003;</span>
+                            <div>
+                                <strong style="color: var(--text-pure);">Actionable Roadmap:</strong> Walk away with clear steps regardless of whether you commission full management.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Live Formspree Integration Endpoint -->
+                <div class="author-form-wrap reveal">
+                    <form id="homeContactForm" action="https://formspree.io/f/mrpqqvwe" method="POST" class="author-form">
+                        <div class="form-group">
+                            <label for="fullName">Full Professional Name</label>
+                            <input type="text" id="fullName" name="name" placeholder="e.g., Alexandra Cross" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="emailAddress">Primary Email Address</label>
+                            <input type="email" id="emailAddress" name="email" placeholder="author@domain.com" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="bookGenre">Primary Genre / Niche</label>
+                                <input type="text" id="bookGenre" name="genre" placeholder="e.g., Dark Romance, Sci-Fi" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="primaryGoal">Primary Service Need</label>
+                                <select id="primaryGoal" name="service" required>
+                                    <option value="" disabled selected>Select Primary Objective</option>
+                                    <option value="Amazon Metadata & Keyword Audit">Amazon Metadata & Keyword Audit</option>
+                                    <option value="Amazon A+ Content Production">Amazon A+ Content Production</option>
+                                    <option value="BookTok Viral Campaign">BookTok Viral Campaign</option>
+                                    <option value="Full 90-Day Book Launch Setup">Full 90-Day Book Launch Setup</option>
+                                    <option value="Sales Funnel & Author Website">Sales Funnel & Author Website</option>
+                                    <option value="Audiobook Production & Launch">Audiobook Production & Launch</option>
+                                    <option value="Comprehensive 360 Managed Strategy">Comprehensive 360 Managed Strategy</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="bookDetails">Book Title, Current ASIN / Links, and Goals</label>
+                            <textarea id="bookDetails" name="message" rows="5" placeholder="Share your book title, Amazon ASIN (if live), and the primary hurdles you are facing in the market..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-gold btn-full" id="submitBtn">Submit Strategic Brief</button>
+                        <div id="formStatusNotice" class="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Master Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo-wrap">
+                        <img src="assets/images/basitic.jpg" alt="Basit Ayoola" class="header-avatar-circle">
+                        <div class="logo-text">
+                            <div class="name-row">
+                                <span class="name-white">Basit</span> <span class="name-gold">Ayoola</span>
+                            </div>
+                            <span class="logo-sub">BESTSELLER WHISPERER</span>
+                        </div>
+                    </a>
+                    <p>
+                        Engineered book marketing, metadata optimization, viral BookTok campaigns, and publishing infrastructure for high-performing authors worldwide.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about/index.html">The Strategist</a></li>
+                        <li><a href="services/index.html">12 Core Services</a></li>
+                        <li><a href="resources/index.html">18 Resource Vaults</a></li>
+                        <li><a href="testimonials/index.html">Case Studies</a></li>
+                        <li><a href="contact/index.html">Direct Consult</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Direct Inquiries</h4>
+                    <ul>
+                        <li><a href="mailto:contactbasitayoola@gmail.com">contactbasitayoola@gmail.com</a></li>
+                        <li><a href="contact/index.html">Request Strategy Call</a></li>
+                        <li><a href="resources/index.html">Download PDF Manuals</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Social Ecosystem</h4>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/basit-ayoola-adeyemi-bestseller-whisperer-6337ba324" target="_blank" rel="noopener">LinkedIn Network</a></li>
+                        <li><a href="https://www.tiktok.com/@bestseller_whisperer" target="_blank" rel="noopener">TikTok Intelligence</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=61591892341216" target="_blank" rel="noopener">Facebook Community</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="yearPlaceholder"></span> Basit Ayoola (Bestseller Whisperer). All Rights Reserved. Master Book Marketing & Strategic Publishing Infrastructure.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External Global JavaScript Engine Reference -->
+    <script src="js/script.js"></script>
+
+    <!-- Comprehensive Internal JavaScript Engine (Self-Contained Interaction Engine) -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Set dynamic copyright year
+            const yearElem = document.getElementById('yearPlaceholder');
+            if (yearElem) {
+                yearElem.textContent = new Date().getFullYear();
+            }
+
+            // Header scroll effects
+            const header = document.getElementById('mainHeader');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 40) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            }, { passive: true });
+
+            // Mobile menu overlay toggle
+            const menuToggle = document.getElementById('menuToggle');
+            const menuOverlay = document.getElementById('menuOverlay');
+            if (menuToggle && menuOverlay) {
+                menuToggle.addEventListener('click', () => {
+                    menuToggle.classList.toggle('active');
+                    menuOverlay.classList.toggle('open');
+                    document.body.style.overflow = menuOverlay.classList.contains('open') ? 'hidden' : '';
+                });
+
+                // Close on link click inside overlay
+                menuOverlay.querySelectorAll('a').forEach(link => {
+                    link.addEventListener('click', () => {
+                        menuToggle.classList.remove('active');
+                        menuOverlay.classList.remove('open');
+                        document.body.style.overflow = '';
+                    });
+                });
+            }
+
+            // Scroll reveal intersection observer
+            const revealElements = document.querySelectorAll('.reveal');
+            if ('IntersectionObserver' in window) {
+                const revealObserver = new IntersectionObserver((entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('active');
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, {
+                    threshold: 0.12,
+                    rootMargin: '0px 0px -40px 0px'
+                });
+
+                revealElements.forEach(el => revealObserver.observe(el));
+            } else {
+                // Fallback for older browsers
+                revealElements.forEach(el => el.classList.add('active'));
+            }
+
+            // Interactive FAQ Accordions
+            const faqItems = document.querySelectorAll('.faq-accordion-item');
+            faqItems.forEach(item => {
+                const trigger = item.querySelector('.faq-trigger');
+                const panel = item.querySelector('.faq-panel');
+
+                trigger.addEventListener('click', () => {
+                    const isOpen = item.classList.contains('open');
+
+                    // Close all others
+                    faqItems.forEach(otherItem => {
+                        otherItem.classList.remove('open');
+                        otherItem.querySelector('.faq-trigger').setAttribute('aria-expanded', 'false');
+                        otherItem.querySelector('.faq-panel').style.maxHeight = null;
+                    });
+
+                    // Toggle current
+                    if (!isOpen) {
+                        item.classList.add('open');
+                        trigger.setAttribute('aria-expanded', 'true');
+                        panel.style.maxHeight = panel.scrollHeight + 'px';
+                    }
+                });
+            });
+
+            // Formspree Asynchronous Form Submission
+            const form = document.getElementById('homeContactForm');
+            const statusNotice = document.getElementById('formStatusNotice');
+            const submitBtn = document.getElementById('submitBtn');
+
+            if (form && statusNotice && submitBtn) {
+                form.addEventListener('submit', async (e) => {
+                    e.preventDefault();
+                    submitBtn.disabled = true;
+                    submitBtn.textContent = 'Transmitting Brief...';
+                    statusNotice.className = 'form-status';
+                    statusNotice.style.display = 'none';
+
+                    const formData = new FormData(form);
+
+                    try {
+                        const response = await fetch(form.action, {
+                            method: 'POST',
+                            body: formData,
+                            headers: {
+                                'Accept': 'application/json'
+                            }
+                        });
+
+                        if (response.ok) {
+                            statusNotice.textContent = 'Thank you. Your strategic brief has been securely delivered to Basit Ayoola. We will be in touch shortly.';
+                            statusNotice.className = 'form-status success';
+                            statusNotice.style.display = 'block';
+                            form.reset();
+                            submitBtn.textContent = 'Brief Submitted Successfully';
+                        } else {
+                            const data = await response.json();
+                            if (Object.hasOwn(data, 'errors')) {
+                                statusNotice.textContent = data.errors.map(error => error.message).join(', ');
+                            } else {
+                                statusNotice.textContent = 'Transmission error. Please email directly to contactbasitayoola@gmail.com';
+                            }
+                            statusNotice.className = 'form-status error';
+                            statusNotice.style.display = 'block';
+                            submitBtn.disabled = false;
+                            submitBtn.textContent = 'Submit Strategic Brief';
+                        }
+                    } catch (err) {
+                        statusNotice.textContent = 'Network error. Please contact directly at contactbasitayoola@gmail.com';
+                        statusNotice.className = 'form-status error';
+                        statusNotice.style.display = 'block';
+                        submitBtn.disabled = false;
+                        submitBtn.textContent = 'Submit Strategic Brief';
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
